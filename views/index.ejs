@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>한줄한줄</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="animate.css"> -->
+</head>
+<body>
+  <!-- <div class="debug" style="position: fixed; background-color: #ffffff; color: #000000; bottom: 10px; left: 10px; z-index: 1000;" >123</div> -->
+  <div class="divver">
+    <div class="write">
+        <h1>한줄한줄</h1>
+        <h2>지금은 무슨 생각을<br>하고 있나요?</h2>
+      <div class="write_box">
+
+        <div class="write_line_box_background background_hide"></div>
+        <div class="write_line_box_2 hide">
+          <div class="write_line">
+            <input type="text" id="line2" onkeyup="req_line(2)" placeholder="나의 생각 남기기">
+          </div>
+        </div>
+
+        <div class="write_line_box">
+          <div class="write_line">
+            <input type="text" id="line" onkeyup="req_line(1)" placeholder="나의 생각 남기기">
+          </div>
+          <div class="write_btn_box">
+            <div class="write_btn">
+              <div class="write_btn_text" onclick="go_line()">
+                남기기
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="read">
+      <div class="blank"></div>
+      <div class="lines">
+
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="masonry.pkgd.min.js"></script>
+  <!-- <script src="wow.min.js"></script> -->
+  <script src="script.js"></script>
+
+</body>
+</html>
