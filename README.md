@@ -37,7 +37,7 @@
 
 이제 브라우저에서 `localhost:3000`을 방문하면 한줄한줄을 확인 할 수 있어요!
 
-# Cantact
+# Contact
 * mail : hyuns@hyuns.me
 * discoard : 혀느현스#3891
 
