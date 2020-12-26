@@ -123,7 +123,7 @@ function go_line() {
 
 function req_line(id) {
     if (id == 2) {
-        let val = $("#lin2").val()
+        let val = $("#line2").val()
         $("#line").val(val)
         line = val
     } else {
