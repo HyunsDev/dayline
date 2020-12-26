@@ -13,9 +13,11 @@ function delay(gap){ /* gap is in millisecs */
 
 
 let line_scroll = () => {
+    let screen_top = $("html").scrollTop() || $("body").scrollTop();
+
     // $(".debug").text($(this).scrollTop() + " " + is_line_open)
 
-    if ($(this).scrollTop() > 335) { //열기
+    if ($(screen_top).scrollTop() > 335) { //열기
         if (is_line_open) {
             // console.log("already open");
             is_line_open = true;
